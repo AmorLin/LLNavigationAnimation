@@ -15,6 +15,9 @@
 		3394CA1820AD67AD001945BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3394CA1720AD67AD001945BB /* main.m */; };
 		3394CA2220AD67AD001945BB /* LLNavigationAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3394CA2120AD67AD001945BB /* LLNavigationAnimationTests.m */; };
 		3394CA2D20AD67AD001945BB /* LLNavigationAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3394CA2C20AD67AD001945BB /* LLNavigationAnimationUITests.m */; };
+		3394CA3F20AD69A4001945BB /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3394CA3E20AD69A4001945BB /* NextViewController.m */; };
+		3394CA4320AD6B1C001945BB /* NavigationController_New.m in Sources */ = {isa = PBXBuildFile; fileRef = 3394CA4120AD6B1C001945BB /* NavigationController_New.m */; };
+		3394CA4420AD6B1C001945BB /* NavigationController_New.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3394CA4220AD6B1C001945BB /* NavigationController_New.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		3394CA2820AD67AD001945BB /* LLNavigationAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLNavigationAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3394CA2C20AD67AD001945BB /* LLNavigationAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLNavigationAnimationUITests.m; sourceTree = "<group>"; };
 		3394CA2E20AD67AD001945BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3394CA3D20AD69A4001945BB /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		3394CA3E20AD69A4001945BB /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		3394CA4020AD6B1C001945BB /* NavigationController_New.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController_New.h; sourceTree = "<group>"; };
+		3394CA4120AD6B1C001945BB /* NavigationController_New.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController_New.m; sourceTree = "<group>"; };
+		3394CA4220AD6B1C001945BB /* NavigationController_New.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NavigationController_New.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,9 @@
 		3394CA0720AD67AD001945BB /* LLNavigationAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				3394CA3C20AD68C6001945BB /* Controller */,
+				3394CA3A20AD68C5001945BB /* Model */,
+				3394CA3B20AD68C5001945BB /* View */,
 				3394CA0820AD67AD001945BB /* AppDelegate.h */,
 				3394CA0920AD67AD001945BB /* AppDelegate.m */,
 				3394CA0B20AD67AD001945BB /* ViewController.h */,
@@ -130,6 +141,32 @@
 				3394CA2E20AD67AD001945BB /* Info.plist */,
 			);
 			path = LLNavigationAnimationUITests;
+			sourceTree = "<group>";
+		};
+		3394CA3A20AD68C5001945BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3394CA3B20AD68C5001945BB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3394CA3C20AD68C6001945BB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3394CA3D20AD69A4001945BB /* NextViewController.h */,
+				3394CA3E20AD69A4001945BB /* NextViewController.m */,
+				3394CA4020AD6B1C001945BB /* NavigationController_New.h */,
+				3394CA4120AD6B1C001945BB /* NavigationController_New.m */,
+				3394CA4220AD6B1C001945BB /* NavigationController_New.storyboard */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +277,7 @@
 			files = (
 				3394CA1520AD67AD001945BB /* LaunchScreen.storyboard in Resources */,
 				3394CA1220AD67AD001945BB /* Assets.xcassets in Resources */,
+				3394CA4420AD6B1C001945BB /* NavigationController_New.storyboard in Resources */,
 				3394CA1020AD67AD001945BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +303,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3394CA4320AD6B1C001945BB /* NavigationController_New.m in Sources */,
 				3394CA0D20AD67AD001945BB /* ViewController.m in Sources */,
+				3394CA3F20AD69A4001945BB /* NextViewController.m in Sources */,
 				3394CA1820AD67AD001945BB /* main.m in Sources */,
 				3394CA0A20AD67AD001945BB /* AppDelegate.m in Sources */,
 			);
